@@ -1,3 +1,5 @@
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/droptonotify/ai-manus&env=DATABASE_URL,REDIS_URL,API_KEY,API_BASE,MODEL_NAME,TEMPERATURE,MAX_TOKENS&envDescription=Add%20your%20Postgres%2FNeon%20and%20Redis%20credentials%20and%20model%20settings%20here)
+
 # AI Manus
 
 English | [中文](README_zh.md) | [Documents](https://docs.ai-manus.com/#/en/)
@@ -328,4 +330,4 @@ export IMAGE_TAG=latest
 
 # Push to the corresponding image repository
 ./run push
-``` 
+```
