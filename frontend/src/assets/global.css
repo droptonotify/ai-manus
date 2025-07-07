@@ -27,3 +27,7 @@ body,html {
 .ltr\:border-l {
   border-left-width: 1px;
 }
+
+.monaco-component.multiDiffEditor .multiDiffEntry .collapse-button :is(a) {
+  display: block;
+}
