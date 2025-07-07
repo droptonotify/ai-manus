@@ -19,6 +19,10 @@
       "dest": "backend/app/main.py"
     },
     {
+      "src": "/",
+      "dest": "frontend/dist/index.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "frontend/dist/$1"
     }
@@ -26,7 +30,9 @@
   "env": {
     "DATABASE_URL": "postgres://neondb_owner:npg_wKUsQ7Gu3keS@ep-summer-union-adsp07o1-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require",
     "REDIS_URL": "redis://default:2zF8lvUCSd7vmsmUwRDUnQPb5jbNWFO7@redis-15053.c92.us-east-1-3.ec2.redns.redis-cloud.com:15053",
+    "LLM_PROVIDER": "google-deepmind",
     "API_KEY": "",
+    "GOOGLE_DEEPMIND_API_KEY": "AIzaSyDPDvaffqIxR181_mD08jUX42lcNcF3H-0",
     "API_BASE": "http://mockserver:8090/v1",
     "MODEL_NAME": "deepseek-chat",
     "TEMPERATURE": "0.7",
